@@ -1,3 +1,11 @@
+with open('file1.txt', 'r') as input_file, open('file2.txt', 'w') as output_file:
+     input = input_file.read()
+     output_file.write("somethin")
+
+
+
+
+
 # list is mutable tuğle is not mutable
 
 # list can hold more than one and different tyoe data
@@ -17,7 +25,7 @@ length_of_list = len(list)
 
 #slicing
 
-print(list[1,2])
+print(list[0:2]) # 0, 1 
 
 #list(,2) = list(0,2)
 

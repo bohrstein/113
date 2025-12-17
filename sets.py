@@ -1,4 +1,5 @@
 set = set()
+people = {"Jay", "Idrish", "Archi"}
 sequence = [2, 3, 4, 5]
 set.add("element")
 set.update(sequence)
